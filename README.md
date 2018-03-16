@@ -26,4 +26,4 @@ layer.onClick ->
 `slideInRightt` | gif
 `slideInTop` | gif
 `slideInBottom` | gif
-`slideDownScaleUpt` | gif
+`slideDownScaleUp` | gif
