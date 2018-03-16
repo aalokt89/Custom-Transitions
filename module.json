@@ -1,0 +1,9 @@
+{
+    "name": "Custom Transitions",
+    "description": "Simple custom transitions you can use with Framer's Flow Component",
+    "author": "Aalok Trivedi",
+
+    "require": "{Custom} = require 'CustomTransitions'",
+    "install": "CustomTransitions.coffee",
+    "example": "example.coffee",
+}
