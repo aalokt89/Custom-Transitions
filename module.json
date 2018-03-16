@@ -5,5 +5,5 @@
 
     "require": "{Custom} = require 'CustomTransitions'",
     "install": "CustomTransitions.coffee",
-    "example": "example.coffee",
+    "example": "example.coffee"
 }
