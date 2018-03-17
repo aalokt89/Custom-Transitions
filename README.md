@@ -21,9 +21,11 @@ layer.onClick ->
 
 ### Basic Values
  Name |Example
--------- | ----
-`slideInLeft` | gif
-`slideInRightt` | gif
-`slideInTop` | gif
-`slideInBottom` | gif
-`slideDownScaleUp` | gif
+------| -------
+`slideInLeft` | <img src ="../images/slideInLeft.gif" width="100" />
+`slideInRight` | <img src ="/images/slideInRight.gif" width="100" />
+`slideInTop` | <img src ="/images/slideInTop.gif" width="100" />
+`slideInBottom` | <img src ="/images/slideInBottom.gif" width="100" />
+`crossfade` | <img src ="/images/crossfade.gif" width="100" />
+`slideDownScaleUp` | <img src ="/images/slideDownScaleUp.gif" width="100" />
+`scaleDownScaleUp` | <img src ="/images/scaleDownScaleUp.gif" width="100" />
