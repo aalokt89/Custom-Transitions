@@ -171,45 +171,75 @@ exports.Custom =
                     options:
                         time: .3
                         curve: Bezier.easeInOut
-    # flipLeft: (nav, layerA, layerB) ->
-    #     transition =
-    #         layerA:
-    #             show:
-    #                 x: 0
-    #                 y: 0
-    #                 rotationY: 0
-    #                 scale: 1.0
-    #                 opacity: 1
-    #                 z: 1
-    #                 options:
-    #                     time: .3
-    #                     curve: Bezier.easeInOut
-    #             hide:
-    #                 x: 0
-    #                 y: 0
-    #                 z: 0
-    #                 rotationY: -180
-    #                 opacity: 1
-    #                 options:
-    #                     time: .3
-    #                     curve: Bezier.easeInOut
-    #         layerB:
-    #             show:
-    #                 x:0
-    #                 y:0
-    #                 z: 1
-    #                 rotationY: 0
-    #                 opacity: 1
-    #                 options:
-    #                     time: .3
-    #                     curve: Bezier.easeInOut
-    #             hide:
-    #                 x: 0
-    #                 y: 0
-    #                 z: 0
-    #                 rotationY: 0
-    #                 opacity: 1
-    #                 scale: 1
-    #                 options:
-    #                     time: .3
-    #                     curve: Bezier.easeInOut
+
+    crossfade: (nav, layerA, layerB) ->
+        transition =
+            layerA:
+                show:
+                    x: 0
+                    y: 0
+                    scale: 1.0
+                    opacity: 1
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+                hide:
+                    x: 0
+                    y: 0
+                    opacity: 0
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+            layerB:
+                show:
+                    x:0
+                    y:0
+                    opacity: 1
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+                hide:
+                    x: 0
+                    y: 0
+                    opacity: 0
+                    scale: 1
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+
+    scaleDownScaleUp: (nav, layerA, layerB) ->
+        transition =
+            layerA:
+                show:
+                    x: 0
+                    y: 0
+                    scale: 1
+                    opacity: 1
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+                hide:
+                    x: 0
+                    y: 0
+                    scale: .8
+                    opacity: 0
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+            layerB:
+                show:
+                    x:0
+                    y:0
+                    scale: 1
+                    opacity: 1
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
+                hide:
+                    x: 0
+                    y: 0
+                    scale: .8
+                    opacity: 0
+                    options:
+                        time: .3
+                        curve: Bezier.easeInOut
