@@ -34,7 +34,6 @@ exports.Custom =
     					time: .3
     					curve: Bezier.easeIn
 
-
     slideInLeft: (nav, layerA, layerB) ->
     	transition =
     		layerA:
