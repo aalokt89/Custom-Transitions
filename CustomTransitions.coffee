@@ -24,7 +24,7 @@ exports.Custom =
     				options:
     					time: .5
     					curve: Bezier.easeOut
-                        delay: .2
+    					delay: .2
     			hide:
     				x: 0
     				y: 0
