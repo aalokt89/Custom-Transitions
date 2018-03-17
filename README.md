@@ -22,7 +22,7 @@ layer.onClick ->
 ### Basic Values
  Name |Example
 ------| -------
-`slideInLeft` | <img src ="../images/slideInLeft.gif" width="100" />
+`slideInLeft` | <img src ="/images/slideInLeft.gif" width="100" />
 `slideInRight` | <img src ="/images/slideInRight.gif" width="100" />
 `slideInTop` | <img src ="/images/slideInTop.gif" width="100" />
 `slideInBottom` | <img src ="/images/slideInBottom.gif" width="100" />
