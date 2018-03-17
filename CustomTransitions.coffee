@@ -218,6 +218,7 @@ exports.Custom =
                     options:
                         time: .3
                         curve: Bezier.easeInOut
+                        delay: .2
                 hide:
                     x: 0
                     y: 0
@@ -235,6 +236,7 @@ exports.Custom =
                     options:
                         time: .3
                         curve: Bezier.easeInOut
+                        delay: .2
                 hide:
                     x: 0
                     y: 0
