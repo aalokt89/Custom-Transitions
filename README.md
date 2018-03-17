@@ -19,7 +19,6 @@ layer.onClick ->
 
 ## Available Transitions
 
-### Basic Values
 Name | Example | Name | Example
 -----| ------- | -----| -------
 `slideInLeft` | <img src ="/images/slideInLeft.gif" width="100" /> | `slideInRight` | <img src ="/images/slideInRight.gif" width="100" />
