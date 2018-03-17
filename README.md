@@ -29,3 +29,5 @@ layer.onClick ->
 `crossfade` | <img src ="/images/crossfade.gif" width="100" />
 `slideDownScaleUp` | <img src ="/images/slideDownScaleUp.gif" width="100" />
 `scaleDownScaleUp` | <img src ="/images/scaleDownScaleUp.gif" width="100" />
+
+I'm working on some more transitions and a way for you to have more control over the animation timings and curves, so stay tuned!
