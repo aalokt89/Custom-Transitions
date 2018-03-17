@@ -24,6 +24,7 @@ exports.Custom =
     				options:
     					time: .5
     					curve: Bezier.easeOut
+                        delay: .2
     			hide:
     				x: 0
     				y: 0
@@ -32,7 +33,7 @@ exports.Custom =
     				options:
     					time: .3
     					curve: Bezier.easeIn
-    					delay: .2
+
 
     slideInLeft: (nav, layerA, layerB) ->
     	transition =
